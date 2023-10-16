@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+  }
+  .main-container {
+    display: grid;
+    place-content: center;
+    margin: auto;
+    background: palegreen;
+    height: 100vh;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    animation: pulse 1000ms infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.4);
+    }
+  }
+  
